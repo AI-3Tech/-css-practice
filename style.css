@@ -1,0 +1,551 @@
+body{
+        margin: 10px;
+        padding: 0px;
+    } 
+
+.header {
+    text-align: center;
+}
+
+.webname {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #013d68;
+    color: rgb(248, 99, 0);
+    font-variant: small-caps;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 20vw;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.20s, 
+                box-shadow 0.20s;
+}
+
+.webname:hover {
+    background-color: #085d99;
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.webname:active {
+    background-color: #013d68;
+}
+
+p{
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contents {
+    display: inline;
+}
+.about {
+    display: inline-block;
+}
+
+.uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+    transition: opacity 0.25s, 
+                box-shadow 0.25s, 
+}
+
+.uber-button:hover {
+    opacity: 0.7;
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.uber-button:active {
+    opacity: 1;
+}
+
+.amazon-button {
+    background-color: rgb(252, 219, 56);
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    transition: background-color 0.25s, 
+                box-shadow 0.25s;
+}
+
+.amazon-button:hover {
+    background-color: rgb(255, 251, 0);
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.amazon-button:active {
+    background-color: rgb(223, 190, 6);
+}
+
+.github-button {
+    background-color: rgb(14, 182, 62);
+    color: white;
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: box-shadow 0.25s, background-color 0.25s;
+}
+
+.github-button:hover {
+    background-color: rgb(13, 201, 66);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+}
+
+.github-button:active {
+    background-color: rgb(18, 235, 80);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+}
+
+.bootstrap-button1 {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    transition: background-color 0.25s, 
+                color 0.25s, 
+                font-weight 0.25s,
+                box-shadow;
+}
+
+.bootstrap-button1:hover {
+    background-color: rgba(255, 0, 0, 1);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.bootstrap-button1:active {
+    background-color: rgba(150,0,0,1);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+
+.bootstrap-button2 {
+    background-color: rgb(175, 177, 180);
+    border-width: 1px;
+    border-color: black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    transition: background-color 0.25s, 
+                font-weight 0.25s,
+                box-shadow 0.25s;
+}
+
+.bootstrap-button2:hover {
+    background-color: rgb(255, 6, 6);
+    font-weight: bold;
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.bootstrap-button2:active {
+    background-color: rgb(150, 0, 0);
+    font-weight: bold;
+}
+
+.linkedin-button1 {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-width: 1px;
+    border-color: rgb(0, 0, 114);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.25s, 
+                box-shadow 0.25s;
+}
+
+.linkedin-button1:hover {
+    background-color: rgb(2, 2, 255);
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.linkedin-button1:active {
+    background-color: rgb(2, 2, 116);
+}
+
+.linkedin-button2 {
+    background-color: rgb(197, 189, 189);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.25s, 
+                box-shadow 0.25s;
+}
+
+.linkedin-button2:hover {
+    background-color: lightblue;
+    box-shadow: 1vh 1vh 3vh rgba(0,0,0,0.7);
+}
+
+.linkedin-button2:active {
+    background-color: rgb(25, 139, 177);
+}
+
+.home {
+    background-color: rgb(3, 79, 109);
+    color:rgb(255, 208, 0);
+    margin-top: 1vh;
+    margin-bottom:1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 5vh;
+    cursor: pointer;
+    transition: opacity 0.25s,
+                border-width 0.25s,
+                font-weight 0.25s,
+                border-color 0.25s,
+                box-shadow 0.25s; 
+}
+
+.home:hover {
+    opacity: 0.7;
+    border-width: 2px;
+    font-weight: bold;
+    border-color: black;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.home:active {
+    opacity: 1;
+    border-width: 2px; 
+}
+    
+.amazon-link {
+    color: rgb(255, 0, 128);
+    transition: background-color 0.25s, 
+                color 0.25s, 
+                font-weight 0.25s;
+}
+    
+.amazon-link:hover {
+    background-color: rgb(140, 140, 228);
+    color: rgb(78, 66, 66);
+    font-weight: bold;
+}
+    
+.amazon-link:active {
+    background-color: rgb(7, 7, 121);
+    color: rgb(250, 248, 248);
+    font-weight: bold;
+}
+    
+.product-price1 {
+    color: rgb(0, 118, 0);
+    margin-bottom: 8px;
+}
+    
+.adcart1 {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: color 0.25s, 
+                background-color 0.25s,
+                font-weight 0.25s,
+                box-shadow 0.25s;
+}
+    
+.adcart1:hover { 
+    background-color: yellow;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+    
+.adcart1:active {
+    background-color: #013d68;
+    color: yellow
+}
+    
+.buy1 {
+    background-color: rgb(216, 133, 8);
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: font-weight 0.25s, 
+                border-width 0.25s,
+                background-color 0.25s,
+                color 0.25s, 
+                border-color 0.25s;
+}
+    
+.buy1:hover {
+    background-color: rgb(255, 166, 0);
+    font-weight: bold;
+    border-width: 2px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+    
+.buy1:active {
+    background-color: #013d68;
+    color: rgb(219, 137, 29);
+    border-width: 2px;
+    border-color: rgb(219, 137, 29);
+}
+
+
+.subscribe-button {
+    background-color: rgb(175, 8, 8);
+    color: white;
+    border: none;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.subscribe-button:hover {
+    opacity: 0.7;
+}
+
+.subscribe-button:active {
+    opacity: 1;
+}
+
+.join-button {
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(0, 195, 255);
+    border-radius: 2px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s,
+                color 0.25s,
+                box-shadow 0.25s;
+}
+
+.join-button:hover {
+    background-color: rgb(5, 169, 245);
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.join-button:active {
+    background-color: rgb(38, 0, 255);
+    color: white;
+}
+
+.tweet-button {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bold;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 5vh;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.tweet-button:hover {
+    background-color: rgb(94, 75, 75);
+    color: red;
+    box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.8);
+}
+
+.tweet-button:active {
+    background-color: black;
+    color: red;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+}
+
+.stretch {
+    background-color: rgb(2, 163, 2);
+    padding: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 1vw;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: padding 0.25s,
+                font-size 0.25s,
+                background-color 0.25s;
+}
+
+.stretch:hover {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 4vh;
+}
+
+.stretch:active {
+    background-color: rgb(1, 245, 1);
+}
+
+.threedclick {
+    background-color: rgb(3, 163, 3);
+    border: none;
+    padding: 2vh;
+    margin: 1vh;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.threedclick:active {
+    box-shadow: none;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.mrgpad1 {
+    background-color: rgb(3, 150, 3);
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 1vh;
+    cursor: pointer;
+    color: white;
+    transition: padding 0.25s;
+}
+
+.mrgpad1:hover {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.mrgpad1:active {
+    background-color: rgb(7, 211, 7);
+}
+
+.mrgpad2 {
+    background-color: rgb(3, 150, 3);
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 1vh;
+    cursor: pointer;
+    color: white;
+    transition: padding 0.25s;
+}
+
+.mrgpad2:hover {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.mrgpad2:active {
+    background-color: rgb(7, 211, 7);
+}
+
+.mrgpad3 {
+    background-color: rgb(3, 150, 3);
+    border: none;
+    padding-top: 4vh;
+    padding-bottom: 0vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 1vh;
+    cursor: pointer;
+    color: white;
+    transition: padding 0.25s;
+    vertical-align: top;
+}
+
+.mrgpad3:hover {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.mrgpad3:active {
+    background-color: rgb(7, 211, 7);
+}
